@@ -1,0 +1,7 @@
+啟動gateway與metrics功能
+management.endpoints.gateway.enable=true
+spring.cloud.gateway.metrics.enable=true
+
+http://localhost:9091/actuator/   -- 查看有啟動的功能及狀態
+
+瀏覽以建立的gateway(http://localhost:9091/twitter)來讓metric加入gateway(http://localhost:9091/actuator/metrics)
